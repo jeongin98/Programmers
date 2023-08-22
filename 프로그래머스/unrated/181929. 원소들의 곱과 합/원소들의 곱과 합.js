@@ -7,10 +7,9 @@ function solution(num_list) {
 const mul = (num_list) => {
     return num_list.reduce((acc,cur) => acc * cur);      
 }
-// 합의 제곱 함수
+// 합 함수
 const sum = (num_list) => {
-    let result = num_list.reduce((acc,cur) => acc + cur);
-    return result;
+    return num_list.reduce((acc,cur) => acc + cur);;
 }
 
 function compare(num_list){
