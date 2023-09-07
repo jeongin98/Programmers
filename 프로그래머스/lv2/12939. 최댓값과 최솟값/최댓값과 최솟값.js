@@ -19,8 +19,6 @@ function findMinMax(str){
     const min = Math.min(...words);
     const max = Math.max(...words);
 
-    let stringMinMax = '';
-    
    return(min+' '+max);
 }
 
