@@ -9,14 +9,12 @@ function count(n){
     let j;
     
     for(let i=1;i<=n;i++){
-        j = i;
+         let j = i;
         sum = 0;
         while(sum<n){
-            sum+=i;
-            i++;
+            sum+=j;
+            j++;
         }
-        i=j;
-        
         if(sum == n) 
             cnt++;
         
@@ -26,7 +24,7 @@ function count(n){
    
 }
 
- 
+
 
 // i부터 연속한 수를 더하다가 15이상이 되면 판단 시작
 // sum이 15가 되면 cnt, 
