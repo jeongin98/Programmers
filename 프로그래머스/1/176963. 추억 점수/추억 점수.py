@@ -1,3 +1,6 @@
+# 다른 방법 - 딕셔너리 만들기
+#  dictionary = dict(zip(name,yearning))
+
 def solution(name, yearning, photo):
     score_arr = []
     score = 0
